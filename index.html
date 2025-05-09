@@ -4,15 +4,43 @@
 <head>
     <title> Central School of Commerce </title>
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2">
+    
     <style>
         body{
-                background-color: burlywood ;
+             margin: 0;
+             padding: 0;
+             font-family: 'Times New Roman', Times, serif;
+             position: relative;
         }
-        
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+    
+       
     </style>
+    
 </head>
-<body style="background-image: url(I:\E\HTML\image\typewriter.png);">
-     
+<body>
+    <img src="Graphic1.png"
+    alt="watermark" class="watermark">
+
+    
+     <div class="content">
+    
     <h1 > Central School of Commerce</h1>
     <p> <b>Since 1997 - Trusted for quality Typewriting Training </b></p> 
     
@@ -48,10 +76,10 @@
     </div>
 
     <a href="tel:+916383032090">
-        <button> Call +91 63830-32090 </button>
+        <button> CAll +91 6383032090 </button>
     </a>
     <a href="tel:+918973120153" >
-        <button> Call +91 89731-20153</button>
+        <button> Call +91 8973120153</button>
     </a>
 
 
@@ -65,6 +93,6 @@
     </a>
   
 
-
+</div>
 </body>
 </html>
